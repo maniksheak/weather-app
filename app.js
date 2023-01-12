@@ -4,7 +4,7 @@ submitBtn.addEventListener("click", function () {
 
   
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${inputbtn}&appid=4450c049dc640f47383e2b1a34a897df`
+    `https://api.openweathermap.org/data/2.5/weather?q=${inputbtn}&appid=4450c049dc640f47383e2b1a34a897df`
   )
     .then((Response) => Response.json())
     .then((data) => {
@@ -17,5 +17,5 @@ submitBtn.addEventListener("click", function () {
       document.getElementById("temp").innerText = temp.toFixed(2) + " ℃";
       document.getElementById("des").innerText = description;
     });
-    document.getElementById("input-btn").value = ''
+    document.getElementById("input-btn").value = '';
 });
