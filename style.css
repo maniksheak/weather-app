@@ -1,0 +1,80 @@
+.container {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(13, 13, 17);
+    padding: 44px;
+    width: 500px;
+    height: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 2px gray solid;
+    background-image: url('img/cloud-blue-sky.jpg');
+}
+
+.container-body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    background: black;
+    color: white;
+    line-height: normal;
+
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: normal;
+}
+
+#input-btn {
+    border-radius: 5px;
+    display: inline;
+    padding: 9px 12px;
+    font-size: 18px;
+    color: #000;
+}
+
+#submit-btn {
+    display: inline;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 18px;
+    color: rgb(24, 25, 26);
+    background: white;
+    font-weight: bold;
+}
+
+.weather-img {
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    line-height: 0;
+}
+.body-content {
+    margin: auto;
+    line-height: 0.4;
+}
+
+#city {
+    justify-content: center;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+#temp {
+    font-weight: bold;
+    color: white;
+    font-size: 2.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#des {
+    font-size: 1.7rem;
+    padding-bottom: 15px;
+    line-height: normal;
+}
